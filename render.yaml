@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: detectabb-backend-3
+    env: docker
+    repo: https://github.com/amand4priscil4/DetectaBB_Backend_3
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
